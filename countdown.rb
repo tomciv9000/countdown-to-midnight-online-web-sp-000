@@ -10,7 +10,7 @@ end
 
 def countdown_with_sleeo(int)
   while number > 0 
-    sleep 1 
+    sleep(1) 
     puts "#{int} SECOND(S)!"
     number -= 1 
   end
